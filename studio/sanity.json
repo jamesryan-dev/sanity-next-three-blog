@@ -1,0 +1,39 @@
+{
+  "root": true,
+  "project": {
+    "name": "PROJECT NAME HERE"
+  },
+  "api": {
+    "projectId": "PROJECT ID HERE",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/dashboard",
+    "@sanity/desk-tool",
+    "@sanity/color-input",
+    "dark-theme-blue",
+    "mux-input",
+    "conditional-field"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./sanity-structure.js"
+    }
+  ]
+}

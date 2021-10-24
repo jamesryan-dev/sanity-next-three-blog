@@ -1,0 +1,44 @@
+{
+  "name": "pmo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "James <jim.me.ryan@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.3.6",
+    "@sanity/cli": "^2.10.0",
+    "@sanity/color-input": "^2.2.6",
+    "@sanity/components": "^2.2.6",
+    "@sanity/core": "^2.3.3",
+    "@sanity/dashboard": "^2.2.6",
+    "@sanity/default-layout": "^2.3.6",
+    "@sanity/default-login": "^2.2.6",
+    "@sanity/desk-tool": "^2.3.6",
+    "@sanity/ui": "0.32.8",
+    "@sanity/vision": "^2.2.6",
+    "conditional-field": "^1.0.2",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "react-icons": "^4.1.0",
+    "sanity-plugin-conditional-field": "^0.0.1",
+    "sanity-plugin-dark-theme-blue": "^1.0.1",
+    "sanity-plugin-mux-input": "^0.3.1",
+    "sanity-super-pane": "^1.0.0-alpha.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:namesfm/pmo.git"
+  }
+}
